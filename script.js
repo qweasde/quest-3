@@ -70,7 +70,7 @@ cards.forEach(card=>{
       reset();
 
       if(matched === 8){
-        result.textContent = "Ура! Ты уже близко к главному подарку! Сейчас иди к духовке ";
+        result.textContent = "Ура! Ты уже близко к главному подарку! Сейчас иди к стиралке ";
       }
 
     }else{
@@ -96,4 +96,5 @@ function reset(){
 
 // запуск
 shuffle();
+
 preview();
